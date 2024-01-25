@@ -1,0 +1,54 @@
+
+###
+DELETE   http://localhost:27017/users/api/deleteAllUsers
+###
+
+
+GET   http://localhost:27017/posts/api/section/conference
+###
+
+POST  http://localhost:27017/users/api/user
+Content-Type: application/json
+
+{
+    "name":"Hallo",
+    "surname": "Svoboda",
+    "email": "ss@čč.cj",
+    "institution": "PřF UK"
+}
+###
+POST  http://localhost:27017/posts/api/post
+Content-Type: application/json
+
+{
+    "caption":"Is conference visible?",
+    "contentShort": "Is conference visible?",
+    "content": "Is conference visible?",
+    "hidden": false,
+    "onMain": true,
+    "section": "conference",
+    "imageURL": "https://img.freepik.com/premium-vector/mushroom-cartoon-illustration_578300-97.jpg",
+    "url": "https://img.freepik.com/premium-vector/mushroom-cartoon-illustration_578300-97.jpg"
+}
+###
+GET  https://nirus.is.cuni.cz/posts/api/id/64dbcf7922cdae0166505350
+
+###
+Content-Type: application/json
+
+{
+    "name":"Kotora",
+    "caption": "Big organic guy......................",
+    "faculty": "LF1",
+    "imageURL": "https://www.natur.cuni.cz/fakulta/senat/portrety/kotora-img-8007.jpg"
+}
+###
+POST  http://localhost:27017/posts/api
+Content-Type: application/json
+
+{
+    "section": "visibility",
+    "subjectCode": "MC260P41K",
+    "subject": "Dějiny alchymie a chemie"
+    
+}

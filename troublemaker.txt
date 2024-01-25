@@ -1,0 +1,4 @@
+Když ti v práci (uochb) nefunguje dataváze, tak je to tim, že jsi připojenej na eduroam.
+MongoDB jsi přihlášen přes školní učet
+
+k=od:         drsq89chem
