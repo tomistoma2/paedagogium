@@ -1,0 +1,10 @@
+#MainContent{
+    font-size: x-large;
+}
+img{
+max-width: 100%;
+}
+
+#stackRight{
+    overflow: visible;
+}
